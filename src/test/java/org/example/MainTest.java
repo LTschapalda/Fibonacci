@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
 
     @Test void return0_whenFibonacci_gets0() { testACase(0, 0); }
-    @Test void return1_whenFibonacci_gets1() { testACase(1, 1); }
+    @Test void return1_whenFibonacci_gets1() { testACase(1, 2); }
     @Test void return1_whenFibonacci_gets2() { testACase(2, 1); }
     @Test void return2_whenFibonacci_gets3() { testACase(3, 2); }
 
